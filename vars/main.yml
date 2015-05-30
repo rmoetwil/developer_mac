@@ -7,8 +7,9 @@ homebrew_installed_packages:
   - boot2docker
 #  - docker
 #  - autoconf
-#  - mongodb
-#  - node 
+  - maven32
+  - mongodb
+  - node 
   - python
   - sqlite
   - ssh-copy-id
@@ -27,20 +28,24 @@ homebrew_cask_appdir: /Applications
 
 ## @bbaasssiiee say these should be good for you
 homebrew_cask_apps:
-#  - adobe-reader
+  - adobe-reader
 #  - apache-directory-studio
 #  - consul
 #  - consul-template
+  - caffeine
 #  - cord
-#  - dropbox
+  - docker-compose
+  - dropbox
 #  - eclipse-java
-#  - google-chrome
-#  - firefox
+  - evernote
+  - google-chrome
+  - firefox
 #  - flash-player
 #  - flip4mac
 #  - intellij-idea-ce
-#  - java
-#  - microsoft-lync
+  - intellij-idea
+  - java
+  - microsoft-lync
 #  - munki
 #  - murasaki
 #  - mysqlworkbench
@@ -50,14 +55,15 @@ homebrew_cask_apps:
 #  - pycharm-ce
 #  - rcdefaultapp
 #  - rcenvironment
-#  - royal-tsx
+  - royal-tsx
 #  - robomongo
 #  - sequel-pro
 #  - silverlight
 #  - textwrangler
 #  - tunnelblick
-#  - skype
-#  - sublime-text
+  - skype
+  - spotify
+  - sublime-text
 #  - subnetcalc
 #  - textmate
   - vagrant
@@ -65,8 +71,25 @@ homebrew_cask_apps:
 #  - vienna
   - virtualbox
 #  - visualvm
-#  - vlc
+  - vlc
 #  - vmware-fusion
-#  - vmware-horizon-client
+  - xquartz
+  - wireshark
 #  - xquartz
 #  - zterm
+
+npm_modules:
+#  - node-inspector
+#  - node-theseus
+  - bower
+  - loopback
+  - yo
+#  - generator-commander
+  - mocha
+#  - hubot
+#  - coffee-script
+  - grunt
+  - gulp
+  - protractor
+#  - azure-cli
+

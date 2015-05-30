@@ -14,8 +14,9 @@
     - geerlingguy.homebrew
 
 
-  tasks: []
+  tasks:
 # Enable these in your own fork.
+   - include: tasks/npm.yml
 #    - include: tasks/security.yml
 #    - include: tasks/defaults.yml
 #    - include: tasks/network.yml

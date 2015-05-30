@@ -33,12 +33,8 @@ brew install --update caskroom/cask/brew-cask
 # re-use the role from 'Ansible for DevOps, Jeff Geerling, 2014'
 ansible-galaxy install --force -r requirements.yml
 
-##install_software_on_this_mac:
-# specify the apps you want in vars/main.yml
-ansible-playbook provisioner.yml -i inventory.ini --ask-sudo-pass
-
-# To avoid post-heartbleed SSL certificate errors use default curl 
+# To avoid post-heartbleed SSL certificate errors use default curl
 rm ~/.curlrc
 
-# Update this Mac immediately!
+##install_software_on_this_mac:
 ./update_my_mac.sh
