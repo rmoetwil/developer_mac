@@ -16,7 +16,7 @@
 
   tasks: []
 # Enable these in your own fork.
-#    - include: security.yml
-#    - include: defaults.yml
-#    - include: network.yml
+#    - include: tasks/security.yml
+#    - include: tasks/defaults.yml
+#    - include: tasks/network.yml
 
