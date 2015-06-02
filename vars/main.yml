@@ -82,7 +82,7 @@ npm_modules:
 #  - node-inspector
 #  - node-theseus
   - bower
-  - loopback
+  - strongloop
   - yo
 #  - generator-commander
   - mocha
