@@ -31,6 +31,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adobe-reader
   - all2mp3
+  - appcode
   - applepi-baker
 #  - apache-directory-studio
 #  - consul
@@ -44,6 +45,8 @@ homebrew_cask_apps:
   - dropbox
 #  - eclipse-java
   - evernote
+  - github
+  - githubpulse
   - google-chrome
   - filezilla
   - firefox
@@ -52,6 +55,7 @@ homebrew_cask_apps:
   - insomniax
 #  - intellij-idea-ce
   - intellij-idea
+  - iterm2
   - java
   - microsoft-lync
   - microsoft-office
