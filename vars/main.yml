@@ -4,7 +4,6 @@
 # brew search
 homebrew_installed_packages:
   - ansible
-  - boot2docker
 #  - docker
 #  - autoconf
   - gradle
@@ -31,7 +30,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adobe-reader
   - all2mp3
-  - appcode
+#  - appcode
   - applepi-baker
 #  - apache-directory-studio
 #  - consul
@@ -39,6 +38,7 @@ homebrew_cask_apps:
   - caffeine
   - calibre
 #  - cord
+#  - clion
   - chromecast
   - docker-compose
   - docker-machine
@@ -54,7 +54,7 @@ homebrew_cask_apps:
 #  - flip4mac
   - insomniax
 #  - intellij-idea-ce
-  - intellij-idea
+#  - intellij-idea
   - iterm2
   - java
   - microsoft-lync
@@ -90,6 +90,7 @@ homebrew_cask_apps:
   - vlc
 #  - vmware-fusion
   - xquartz
+#  - webstorm
   - wireshark
 #  - zterm
 
@@ -109,5 +110,9 @@ npm_modules:
   - jasmine-node
   - node-gyp
   - protractor
+  - ionic
+  - cordova
+  - ios-sim
+  - ios-deploy
 #  - azure-cli
 
