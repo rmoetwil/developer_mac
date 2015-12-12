@@ -60,7 +60,8 @@ homebrew_cask_apps:
   - jeromelebel-mongohub
   - microsoft-lync
   - microsoft-office
-  - mongo-management-studio
+  - mongochef
+#  - mongo-management-studio
 #  - munki
 #  - murasaki
 #  - mysqlworkbench
@@ -110,6 +111,7 @@ npm_modules:
   - grunt-cli
   - gulp
   - jasmine-node
+  - npm-check-updates
   - node-gyp
   - protractor
   - ionic
