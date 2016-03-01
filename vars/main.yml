@@ -4,7 +4,6 @@
 # brew search
 homebrew_installed_packages:
   - ansible
-#  - docker
 #  - autoconf
   - gradle
   - maven32
@@ -40,8 +39,7 @@ homebrew_cask_apps:
 #  - cord
 #  - clion
   - chromecast
-  - docker-compose
-  - docker-machine
+  - dockertoolbox
   - dropbox
 #  - eclipse-java
   - evernote
