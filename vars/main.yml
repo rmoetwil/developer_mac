@@ -32,6 +32,7 @@ homebrew_cask_apps:
 #  - appcode
   - applepi-baker
 #  - apache-directory-studio
+  - atom
 #  - consul
 #  - consul-template
   - caffeine
@@ -45,6 +46,7 @@ homebrew_cask_apps:
   - evernote
   - github
   - githubpulse
+  - go
   - google-chrome
   - filezilla
   - firefox
@@ -111,10 +113,12 @@ npm_modules:
   - jasmine-node
   - npm-check-updates
   - node-gyp
+  - polymer-cli
   - protractor
   - ionic
   - cordova
   - ios-sim
   - ios-deploy
+  - v8-profiler
 #  - azure-cli
 
