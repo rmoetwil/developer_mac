@@ -109,7 +109,7 @@ npm_modules:
 #  - coffee-script
   - grunt
   - grunt-cli
-  - gulp
+  - gulp-cli
   - jasmine-node
   - npm-check-updates
   - node-gyp
